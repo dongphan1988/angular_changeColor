@@ -1,0 +1,13 @@
+<p >
+  change-coler works!
+</p>
+
+<select [(ngModel)]="color" [style.backgroundColor]= "color" [value]="color">
+  <option value="black" >black</option>
+  <option value="red" >red</option>
+  <option value="white" >white</option>
+  <option value="yellow" >yellow</option>
+</select>
+<div [style.backgroundColor]= "color" style="width: 200px;height: 150px">
+
+</div>
